@@ -1,0 +1,186 @@
+
+body
+{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+   
+    background-color:hsl(235, 16%, 14%);
+    background-image:url("../assets/images/pattern-hills.svg"),url("../assets/images/bg-stars.svg");
+    background-repeat:no-repeat;
+    background-size:contain;
+  
+    background-position:bottom -80px left,left top;
+    user-select: none;
+    
+    
+
+}
+
+*
+{
+    color:white;
+    margin:0px;
+    font-size:14px;
+    font-weight:normal;
+
+}
+
+h1
+{
+    letter-spacing: 0.4em;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+h2
+{
+    letter-spacing: 0.4em;
+    font-size:0.9em;
+    font-weight:bold;
+
+}
+
+#main
+{
+    height:90vh;
+    width:50vw;
+ 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+     
+
+}
+
+#topBand
+{
+    height:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+    
+
+
+
+}
+
+#countDown
+{
+    width:100%;
+    height:70%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+
+}
+
+.countDownCard
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    width:20%;
+    height:100%;
+   
+}
+
+.card
+{
+    
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:60%;
+    
+    
+
+}
+
+.leftBandCard,.rightBandCard
+{
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.leftBandCard div
+{
+    background-color:black;
+    width:5px;
+    height:10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    position:relative;
+    left:5px;
+    z-index:3;
+  
+}
+
+.rightBandCard div
+{
+    background-color:black;
+    width:5px;
+    height:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    position:relative;
+    left:-5px;
+    z-index:3;
+   
+}
+
+
+.timeLeft
+{
+    border-radius:15px;
+    background-color:hsl(236, 21%, 26%);
+    height:100%;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-shadow: 0px 10px 10px black;
+    
+
+}
+
+.vail
+{
+    width:100%;
+    height:50%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    border-bottom:solid black;
+    border-bottom-width:0.1px;
+    position:relative;
+    z-index:2;
+    background-color:black;
+    opacity:0.2;
+
+}
+
+.number
+{
+   
+    height:50%;
+    color:hsl(345, 95%, 68%);
+    position:relative;
+    top:-38px;
+    font-size:5.0em;
+    font-weight:bold;
+
+}
+
+
+
